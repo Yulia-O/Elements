@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.android.elements.MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/earth_button_view"
+            android:background="#8D6E63"
+            android:layout_margin="8dp"
+            android:padding="16dp"
+            android:textSize="16sp"
+            android:text="Earth"
+            android:onClick="earth"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/fire_button_view"
+            android:background="#F44336"
+            android:layout_margin="8dp"
+            android:padding="16dp"
+            android:textSize="16sp"
+            android:text="fire"
+            android:onClick="fire"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/water_button_view"
+            android:background="#03A9F4"
+            android:layout_margin="8dp"
+            android:padding="16dp"
+            android:textSize="16sp"
+            android:text="water"
+            android:onClick="water"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/air_button_view"
+            android:background="#C6FF00"
+            android:layout_margin="8dp"
+            android:padding="16dp"
+            android:textSize="16sp"
+            android:text="air"
+            android:onClick="air"/>
+
+    </LinearLayout>
+
+    <!--  <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">-->
+
+        <LinearLayout android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:id="@+id/earth_image_view"
+                    android:layout_marginRight="16dp"
+                    android:src="@drawable/earth2"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/earth_image_view"
+                    android:text="EARTH"/>
+
+            </RelativeLayout>
+
+            <LinearLayout android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/HeaderTextStyle"
+                android:text="Character"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/air_text_view"
+
+                android:background="#C6FF00"
+                android:layout_margin="8dp"
+                android:padding="16dp"
+                android:textSize="16sp"
+                android:text="The element of air (sanguine)"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:text="Positive qualities: "/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="vigilance, care-freedom, kind-heartedness, trusting nature, clarity, lightness, independency, dexterity, optimism, diligence, acuity, joy, smiling..."/
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:text="Negative qualities: "/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="lack of perseverance, dishonesty, gossipy, cunningness, backbiting, garrulousness, inconstancy, touchiness, prodigality..."/>
+
+            </LinearLayout>
+        </LinearLayout>
+    <!--> </ScrollView>-->
+</LinearLayout>
