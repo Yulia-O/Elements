@@ -1,3 +1,45 @@
 <resources>
     <string name="app_name">Elements</string>
+
+    <string name="earth">earth</string>
+    <string name="air">air</string>
+    <string name="water">water</string>
+    <string name="fire">fire</string>
+
+    <string name="earth_title">earth (solid)</string>
+    <string name="air_title">air (gas)</string>
+    <string name="water_title">water (liquid)</string>
+    <string name="fire_title">fire (plasma)</string>
+
+    <string name="earth_represents">Earth represents things that are solid.</string>
+    <string name="air_represents">Air represents things that move.</string>
+    <string name="water_represents">Water represents things that are liquid.</string>
+    <string name="fire_represents">Fire represents things that destroy.</string>
+
+    <string name="characteristics">characteristics:</string>
+
+    <string name="earth_characteristic">Dry and cold.</string>
+    <string name="air_characteristic">Dry and cold.</string>
+    <string name="water_characteristic">Dry and cold.</string>
+    <string name="fire_characteristic">Dry and cold.</string>
+
+    <string name="character">character and attitude:</string>
+
+    <string name="melancholic">The element of Earth (Melancholic)</string>
+    <string name="choleric">The element of Fire (Choleric)</string>
+    <string name="sanguine">The element of Air (Sanguine)</string>
+    <string name="flegmatic">The element of Water (Flegmatic)</string>
+
+    <string name="positive">positive qualities</string>
+    <string name="negative">negative qualities</string>
+
+    <string name="earth_positive_qualities">consistency, conscientiousness, perseverance, punctuality, caution, resistance, responsibility, carefulness, firmness, reliability, sobriety, ambition, respectfulness, matter-of-factness.</string>
+    <string name="earth_negative_qualities">stuffiness, superficiality, laziness, indifference, cumbersomeness, touchiness, lack of conscientiousness, irregularity, timidity, scornfulness.</string>
+    <string name="water_positive_qualities">consistency, conscientiousness, perseverance, punctuality, caution, resistance, responsibility, carefulness, firmness, reliability, sobriety, ambition, respectfulness, matter-of-factness.</string>
+    <string name="water_negative_qualities">stuffiness, superficiality, laziness, indifference, cumbersomeness, touchiness, lack of conscientiousness, irregularity, timidity, scornfulness.</string>
+    <string name="fire_positive_qualities">consistency, conscientiousness, perseverance, punctuality, caution, resistance, responsibility, carefulness, firmness, reliability, sobriety, ambition, respectfulness, matter-of-factness.</string>
+    <string name="fire_negative_qualities">stuffiness, superficiality, laziness, indifference, cumbersomeness, touchiness, lack of conscientiousness, irregularity, timidity, scornfulness.</string>
+    <string name="air_positive_qualities">consistency, conscientiousness, perseverance, punctuality, caution, resistance, responsibility, carefulness, firmness, reliability, sobriety, ambition, respectfulness, matter-of-factness.</string>
+    <string name="air_negative_qualities">stuffiness, superficiality, laziness, indifference, cumbersomeness, touchiness, lack of conscientiousness, irregularity, timidity, scornfulness.</string>
+
 </resources>
