@@ -35,7 +35,7 @@
             android:paddingTop="16dp"
             android:paddingBottom="16dp"
             android:textSize="16sp"
-            android:text="fire"
+            android:text="@string/fire"
             android:onClick="clickFire"/>
         <Button
             android:layout_width="0dp"
@@ -47,7 +47,7 @@
             android:paddingTop="16dp"
             android:paddingBottom="16dp"
             android:textSize="16sp"
-            android:text="water"
+            android:text="@string/water"
             android:onClick="clickWater"/>
         <Button
             android:layout_width="0dp"
@@ -59,7 +59,7 @@
             android:paddingTop="16dp"
             android:paddingBottom="16dp"
             android:textSize="16sp"
-            android:text="air"
+            android:text="@string/air"
             android:onClick="clickAir"/>
 
     </LinearLayout>

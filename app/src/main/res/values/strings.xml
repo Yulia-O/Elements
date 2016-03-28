@@ -19,16 +19,16 @@
     <string name="characteristics">characteristics:</string>
 
     <string name="earth_characteristic">Dry and cold.</string>
-    <string name="air_characteristic">Dry and cold.</string>
-    <string name="water_characteristic">Dry and cold.</string>
-    <string name="fire_characteristic">Dry and cold.</string>
+    <string name="air_characteristic">Wet and hot.</string>
+    <string name="water_characteristic">Cold and wet.</string>
+    <string name="fire_characteristic">Hot and dry.</string>
 
     <string name="character">character and attitude:</string>
 
     <string name="melancholic">The element of Earth (Melancholic)</string>
     <string name="choleric">The element of Fire (Choleric)</string>
-    <string name="sanguine">The element of Air (Sanguine)</string>
-    <string name="flegmatic">The element of Water (Flegmatic)</string>
+    <string name="sanguine">Air (Sanguine)</string>
+    <string name="flegmatic">Water (Flegmatic)</string>
 
     <string name="positive">positive qualities</string>
     <string name="negative">negative qualities</string>
