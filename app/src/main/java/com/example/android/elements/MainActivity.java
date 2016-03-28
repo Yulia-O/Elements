@@ -31,6 +31,10 @@ public class MainActivity extends AppCompatActivity {
         characteristics [1] = getResources().getString(R.string.fire_characteristic);
         characteristics [2] = getResources().getString(R.string.water_characteristic);
         characteristics [3] = getResources().getString(R.string.air_characteristic);
+        sence [0] = getResources().getString(R.string.earth_sence);
+        sence [1] = getResources().getString(R.string.fire_sence);
+        sence [2] = getResources().getString(R.string.water_sence);
+        sence [3] = getResources().getString(R.string.air_sence);
         element [0] = getResources().getString(R.string.melancholic);
         element [1] = getResources().getString(R.string.choleric);
         element [2] = getResources().getString(R.string.flegmatic);
@@ -53,6 +57,13 @@ public class MainActivity extends AppCompatActivity {
     String[] elementName= {"Earth", "Fire", "Water", "Air"};
 
     private String[] elementTitle = new String[4];
+    private String[] sence = new String[4];
+    /*
+         The basest element, Earth, created using all the other elements, and can be perceived by all five senses – hearing, touch, sight, taste, and smell. </string>
+         Air can be heard and felt.
+         Water has no odor, but can be heard, felt, seen and tasted.
+         Fire can be heard, felt and seen.
+     */
     private String[] elementDescription = new String[4];
     /*
             "Earth represents things that are solid.",
@@ -61,28 +72,28 @@ public class MainActivity extends AppCompatActivity {
             "Air or Wind represents things that move."};
    */
     private static final String[] characteristics = new String[4];
-    /*
+    /* Elements characteristics:
               {"Dry and cold.",
                "Hot and dry.",
                "Cold and wet.",
                "Wet and hot."};
     */
        private static final String [] element = new String[4];
-    /*
+    /* Character or Attitude associated with the element:
                {"Earth (Melancholic)",
                "Fire (Choleric)",
                "Water (Phlegmatic)",
                "Air (Sanguine)"};
     */
        private String[] positiveCharacteristics = new String[4];
-       /*private static final String [] POSITIVE_CHARACTERISTICS = {
+       /*POSITIVE_CHARACTERISTICS associated with the element {
                "consistency, conscientiousness, perseverance, punctuality, caution, resistance, responsibility, carefulness, firmness, reliability, sobriety, ambition, respectfulness, matter-of-factness...",
                "vigorousness, zeal, enthusiasm, courage, decisiveness, power of creativity, daring, sedulity...",
                "understanding, placidity, mildness, trusting nature, devotion, mercy, forgiveness, modesty, compassion, fervor, pliancy, meditativeness, internalization...",
                "vigilance, care-freedom, kind-heartedness, trusting nature, clarity, lightness, independency, dexterity, optimism, diligence, acuity, joy, smiling..."};
        */
     private static final String [] negativeCharacteristics = new String[4];
-               /*{
+    /* NEGATIVE_CHARACTERISTICS associated with the Element: {
             "stuffiness, superficiality, laziness, indifference, cumbersomeness, touchiness, lack of conscientiousness, irregularity, timidity, scornfulness...",
             "quarrelsomeness, irritability, urge to destroy everything, passion, immoderacy, jealousy, voraciousness, vindictiveness, violence, hate, anger, sudden ebullition...",
             "indifference, heartlessness, laziness, indolence, rigidity, lack of daring, lack of concern, unstableness, dejection...",
@@ -103,6 +114,9 @@ public class MainActivity extends AppCompatActivity {
 
         status_text_view = (TextView) findViewById(R.id.element_characteristics_text_view);
         status_text_view.setText(characteristics[EARTH]);
+
+        status_text_view = (TextView) findViewById(R.id.sense_text_view);
+        status_text_view.setText(sence[EARTH]);
 
         status_text_view = (TextView) findViewById(R.id.element_name_text_view);
         status_text_view.setText(element[EARTH]);
@@ -135,6 +149,9 @@ public class MainActivity extends AppCompatActivity {
         status_text_view = (TextView) findViewById(R.id.element_characteristics_text_view);
         status_text_view.setText(characteristics[FIRE]);
 
+        status_text_view = (TextView) findViewById(R.id.sense_text_view);
+        status_text_view.setText(sence[FIRE]);
+
         status_text_view = (TextView) findViewById(R.id.element_name_text_view);
         status_text_view.setText(element[FIRE]);
         status_text_view.setBackgroundColor(Color.parseColor("#F44336"));
@@ -162,6 +179,9 @@ public class MainActivity extends AppCompatActivity {
 
         status_text_view = (TextView) findViewById(R.id.element_characteristics_text_view);
         status_text_view.setText(characteristics[WATER]);
+
+        status_text_view = (TextView) findViewById(R.id.sense_text_view);
+        status_text_view.setText(sence[WATER]);
 
         status_text_view = (TextView) findViewById(R.id.element_name_text_view);
         status_text_view.setText("The element of "  + element[WATER]);
@@ -191,6 +211,9 @@ public class MainActivity extends AppCompatActivity {
         status_text_view = (TextView) findViewById(R.id.element_characteristics_text_view);
         status_text_view.setText(characteristics[AIR]);
 
+        status_text_view = (TextView) findViewById(R.id.sense_text_view);
+        status_text_view.setText(sence[AIR]);
+
         status_text_view = (TextView) findViewById(R.id.element_name_text_view);
         status_text_view.setText("The element of " + element[AIR]);
         status_text_view.setBackgroundColor(Color.parseColor("#C6FF00"));
@@ -211,6 +234,7 @@ public class MainActivity extends AppCompatActivity {
             ans += "\n"+elementDescription[activeElement]+"\n"+
                     "\nCHARACTERISTICS:"+
                     "\n"+characteristics[activeElement]+"\n"+
+                    "\n"+sence[activeElement]+"\n"+
                     "\nPOSITIVE QUALITIES:"+
                     "\n"+positiveCharacteristics[activeElement]+"\n"+
                     "\nNEGATIVE QUALITIES:"+

@@ -74,6 +74,13 @@
             android:layout_marginLeft="8dp"
             android:layout_marginRight="8dp">
 
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/generalText_text_view"
+                android:layout_marginTop="16dp"
+                android:text="@string/general_text"/>
+
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
@@ -123,6 +130,15 @@
                     android:layout_below="@id/characteristics_text_view"
                     android:layout_marginTop="8dp"/>
 
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/sense_text_view"
+                    android:text="@string/earth_sence"
+                    android:layout_toRightOf="@id/element_image_view"
+                    android:layout_below="@id/element_characteristics_text_view"
+                    android:layout_marginTop="8dp"/>
+
             </RelativeLayout>
 
             <LinearLayout android:orientation="vertical"
@@ -143,7 +159,6 @@
                 android:id="@+id/element_name_text_view"
                 android:textColor="#000000"
                 android:background="#FFA726"
-                android:layout_margin="8dp"
                 android:padding="8dp"
                 android:textSize="16sp"
                 android:text="@string/melancholic"/>

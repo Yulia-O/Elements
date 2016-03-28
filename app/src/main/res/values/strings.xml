@@ -6,6 +6,11 @@
     <string name="water">water</string>
     <string name="fire">fire</string>
 
+    <string name="general_text">Classical elements typically refer to Ancient Greek concepts, such as those of Empedocles, similar to the modern states of matter.
+        Aristotle added a fifth element or quintessence called aether in Ancient Greece, and akasha in India.
+        The concept of the five elements formed a basis of analysis in both Hinduism and Buddhism, in ancient China and Japan.
+        Certain words and images associated with each element.</string>
+
     <string name="earth_title">earth (solid)</string>
     <string name="air_title">air (gas)</string>
     <string name="water_title">water (liquid)</string>
@@ -22,6 +27,11 @@
     <string name="air_characteristic">Wet and hot.</string>
     <string name="water_characteristic">Cold and wet.</string>
     <string name="fire_characteristic">Hot and dry.</string>
+
+    <string name="earth_sence">The basest element, Earth, created using all the other elements, and can be perceived by all five senses – hearing, touch, sight, taste, and smell. </string>
+    <string name="air_sence">Air can be heard and felt.</string>
+    <string name="water_sence">Water has no odor, but can be heard, felt, seen and tasted. </string>
+    <string name="fire_sence">Fire can be heard, felt and seen.</string>
 
     <string name="character">character and attitude:</string>
 
