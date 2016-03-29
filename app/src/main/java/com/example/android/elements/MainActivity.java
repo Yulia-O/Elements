@@ -132,7 +132,7 @@ public class MainActivity extends AppCompatActivity {
         status_text_view.setText(negativeCharacteristics[EARTH]);
 
         ImageView element_image_view = (ImageView) findViewById(R.id.element_image_view);
-        element_image_view.setImageResource(R.drawable.earth3);
+        element_image_view.setImageResource(R.drawable.earth);
     }
 
     /**
@@ -163,7 +163,7 @@ public class MainActivity extends AppCompatActivity {
         status_text_view.setText(negativeCharacteristics[FIRE]);
 
         ImageView element_image_view = (ImageView) findViewById(R.id.element_image_view);
-        element_image_view.setImageResource(R.drawable.fire3);
+        element_image_view.setImageResource(R.drawable.fire);
     }
 
     /**

@@ -91,7 +91,7 @@
                     android:id="@+id/element_image_view"
                     android:layout_marginRight="16dp"
                     android:layout_marginTop="16dp"
-                    android:src="@drawable/earth3"/>
+                    android:src="@drawable/earth"/>
 
                 <TextView
                     android:layout_width="wrap_content"
