@@ -45,11 +45,11 @@
 
     <string name="earth_positive_qualities">consistency, conscientiousness, perseverance, punctuality, caution, resistance, responsibility, carefulness, firmness, reliability, sobriety, ambition, respectfulness, matter-of-factness.</string>
     <string name="earth_negative_qualities">stuffiness, superficiality, laziness, indifference, cumbersomeness, touchiness, lack of conscientiousness, irregularity, timidity, scornfulness.</string>
-    <string name="water_positive_qualities">consistency, conscientiousness, perseverance, punctuality, caution, resistance, responsibility, carefulness, firmness, reliability, sobriety, ambition, respectfulness, matter-of-factness.</string>
-    <string name="water_negative_qualities">stuffiness, superficiality, laziness, indifference, cumbersomeness, touchiness, lack of conscientiousness, irregularity, timidity, scornfulness.</string>
-    <string name="fire_positive_qualities">consistency, conscientiousness, perseverance, punctuality, caution, resistance, responsibility, carefulness, firmness, reliability, sobriety, ambition, respectfulness, matter-of-factness.</string>
-    <string name="fire_negative_qualities">stuffiness, superficiality, laziness, indifference, cumbersomeness, touchiness, lack of conscientiousness, irregularity, timidity, scornfulness.</string>
-    <string name="air_positive_qualities">consistency, conscientiousness, perseverance, punctuality, caution, resistance, responsibility, carefulness, firmness, reliability, sobriety, ambition, respectfulness, matter-of-factness.</string>
-    <string name="air_negative_qualities">stuffiness, superficiality, laziness, indifference, cumbersomeness, touchiness, lack of conscientiousness, irregularity, timidity, scornfulness.</string>
+    <string name="water_positive_qualities">understanding, placidity, mildness, trusting nature, devotion, mercy, forgiveness, modesty, compassion, fervor, pliancy, meditativeness, internalization.</string>
+    <string name="water_negative_qualities">indifference, heartlessness, laziness, indolence, rigidity, lack of daring, lack of concern, unstableness, dejection.</string>
+    <string name="fire_positive_qualities">vigorousness, zeal, enthusiasm, courage, decisiveness, power of creativity, daring, sedulity.</string>
+    <string name="fire_negative_qualities">quarrelsomeness, irritability, urge to destroy everything, passion, immoderacy, jealousy, voraciousness, vindictiveness, violence, hate, anger, sudden ebullition..</string>
+    <string name="air_positive_qualities">vigilance, care-freedom, kind-heartedness, trusting nature, clarity, lightness, independency, dexterity, optimism, diligence, acuity, joy, smiling.</string>
+    <string name="air_negative_qualities">lack of perseverance, dishonesty, gossipy, cunningness, backbiting, garrulousness, inconstancy, touchiness, prodigality.</string>
 
 </resources>
